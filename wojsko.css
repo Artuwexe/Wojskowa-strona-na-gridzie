@@ -1,0 +1,256 @@
+*
+{
+	font-size: 22px;
+	color: #000000;
+	font-family: Bebas Neue Regular;
+	font-weight: 2px;
+}
+body
+{
+	margin: 0;
+	text-align: center;
+	background-color: #006400;
+}
+h5{
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+.delete
+{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	align-items: center;
+}
+.menu{
+	background-color: #808000;
+	width: 100%;
+	height:75px;
+}
+li a{
+	text-decoration: none;
+}
+.baner{
+	width:100%;
+}
+h1{
+	font-size: 48px;
+	margin:0;
+}
+.pojemnik{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: #191970;
+	justify-content: space-around;
+	grid-gap: 50px;
+}
+.item{
+	background-color: #2F4F4F;
+	display: inline;
+	border-radius: 25px;
+	/*height: 300px;
+	width: 300px;*/
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+aside{
+	background-color: #F5DEB3;
+	color:#000000;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2 1fr);
+	justify-content: space-between;
+}
+.szary{
+	background-color: #C4C4C4;
+}
+.bialy{
+	background-color: #FFF;
+	display: grid;
+	grid-template-rows: repeat(5, 25px);
+	grid-template-columns: repeat(2, 200px);
+	justify-content: space-around;
+	grid-gap: 15px;
+}
+footer{
+	background-color: #808000;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: space-around;
+}
+footer h6{
+	margin:0;
+}
+.zielony{
+	background-color: #808000;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+.item-1{
+	grid-area: wojsko;
+	width: 845px;
+	height: 484px;
+}
+.item-2{
+	grid-area: soldiers;
+	width: 415px;
+	height: 242px;
+}
+.item-3{
+	grid-area: dron;
+	width: 415px;
+	height: 242px;
+}
+.item-4{
+	grid-area: tank;
+	width: 415px;
+	height: 242px;
+}
+.item-5{
+	grid-area: navy;
+	width: 415px;
+	height: 242px;
+}
+section{
+	display: grid;
+	padding:0 350px;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	grid-gap: 15px;
+	grid-template-areas:
+	"tank dron"
+	"soldiers navy"
+	"wojsko wojsko"
+	"wojsko wojsko";
+}
+section img{
+	display: block;
+}
+@media screen and (max-width: 600px){
+	.pojemnik{
+		display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	}
+} 
+@media screen and (max-width: 870px){
+	.item-1{
+		width: 432.5px;
+		height: 242px;
+	}
+} 
+@media screen and (max-width: 870px){
+	.item-2{
+		width: 207.5px;
+		height: 121px;
+	}
+} 
+@media screen and (max-width: 870px){
+	.item-3{
+		width: 207.5px;
+		height: 121px;
+	}
+} 
+@media screen and (max-width: 870px){
+	.item-4{
+		width: 207.5px;
+		height: 121px;
+	}
+} 
+@media screen and (max-width: 870px){
+	.item-5{
+		width: 207.5px;
+		height: 121px;
+	}
+} 
+@media screen and (max-width: 725px){
+	section{
+		display: grid;
+		padding:0px;
+		align-items: center;
+		grid-template-columns: 1fr; 
+	grid-template-areas:
+	"tank"
+	"dron"
+	"soldiers"
+	"navy"
+	"wojsko";
+	}
+	section img{
+		justify-self:center;
+	}
+} 
+@media screen and (max-width: 725px){
+	.item-1{
+		width: 324,375px;
+		height: 181,5px;
+	}
+}
+
+@media screen and (max-width: 725px){
+	.item-2{
+		width: 324.375px;
+		height: 181.5px;
+	}
+} 
+@media screen and (max-width: 725px){
+	.item-3{
+		width: 324.375px;
+		height: 181.5px;
+	}
+} 
+@media screen and (max-width: 725px){
+	.item-4{
+		width: 324.375px;
+		height: 181.5px;
+	}
+} 
+@media screen and (max-width: 725px){
+	.item-5{
+		width: 324.375px;
+		height: 181.5px;
+	}
+}*/ 
+.kolor1{
+	background-color: #191970;
+}
+.kolor2{
+	background-color: #2F4F4F;
+}
+/*.con
+{
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(8, 1fr);
+	grid-template-areas: 
+	"header header header header header header header header"
+	". . . . . . . ."
+	"main main main main main . aside aside"
+	"main main main main main . aside aside"
+	"main main main main main . aside aside"
+	". . . . . . . ."
+	". . . . . . . ."
+	"footer footer footer footer footer footer footer footer"
+	;
+}*/
+section img{
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+ section img:hover{
+	box-shadow: 0 0 1em white;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}
+.zielony:hover{
+	box-shadow: 0 0 1em lime;
+	transition-duration: 0.5s;
+}
+.item:hover{
+	transition-duration: 1s;
+	box-shadow: 0 0 1em gold;
+}
